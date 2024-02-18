@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,79 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "id": "4b95",
+      "cityName": "Pombal",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2024-02-18T22:53:31.508Z",
+      "notes": "",
+      "position": {
+        "lat": "39.926588421909436",
+        "lng": "-8.552856445312502"
+      }
+    },
+    {
+      "id": "b46e",
+      "cityName": "Paramo del Sil",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-02-18T22:54:00.102Z",
+      "notes": "",
+      "position": {
+        "lat": "42.84375132629023",
+        "lng": "-6.569824218750001"
+      }
+    },
+    {
+      "id": "4d8e",
+      "cityName": "Olmedo de Camaces",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-02-18T22:54:43.728Z",
+      "notes": "",
+      "position": {
+        "lat": "40.93011520598307",
+        "lng": "-6.613769531250001"
+      }
+    },
+    {
+      "id": "30d1",
+      "cityName": "Les Valls de Valira",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-02-18T22:55:31.977Z",
+      "notes": "",
+      "position": {
+        "lat": "42.47209690919285",
+        "lng": "1.40625"
+      }
+    },
+    {
+      "id": "54eb",
+      "cityName": "Sainte-Severe-sur-Indre",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-02-18T22:56:41.839Z",
+      "notes": "sfSDFsdf",
+      "position": {
+        "lat": "46.483264729155586",
+        "lng": "2.0874023437500004"
+      }
+    },
+    {
+      "id": "1e33",
+      "cityName": "Montreuil",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-02-18T22:56:50.793Z",
+      "notes": "",
+      "position": {
+        "lat": "48.86832824998009",
+        "lng": "2.4444580078125004"
+      }
     }
   ]
 }
