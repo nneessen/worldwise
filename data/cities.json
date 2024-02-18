@@ -107,6 +107,42 @@
         "lat": "48.86832824998009",
         "lng": "2.4444580078125004"
       }
+    },
+    {
+      "id": "d5be",
+      "cityName": "Choisy-la-Victoire",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-02-18T23:00:48.957Z",
+      "notes": "",
+      "position": {
+        "lat": "49.3644890711115",
+        "lng": "2.6037597656250004"
+      }
+    },
+    {
+      "id": "1785",
+      "cityName": "Marizy-Sainte-Genevieve",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-02-18T23:02:16.053Z",
+      "notes": "",
+      "position": {
+        "lat": "49.167338606291075",
+        "lng": "3.197021484375"
+      }
+    },
+    {
+      "id": "3567",
+      "cityName": "Toul",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-02-18T23:02:31.688Z",
+      "notes": "",
+      "position": {
+        "lat": "48.719961222646276",
+        "lng": "5.888671875"
+      }
     }
   ]
 }

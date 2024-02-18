@@ -11,6 +11,7 @@ import Spinner from "./Spinner";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { useCities } from "../contexts/CitiesContext";
+import { useNavigate } from "react-router-dom";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export function convertToEmoji(countryCode) {
@@ -31,7 +32,8 @@ function Form() {
   const [notes, setNotes] = useState("");
   const [emoji, setEmoji] = useState("");
   const [geocodingError, setGeocodingError] = useState("");
-  const { createCity } = useCities();
+  const { createCity, isLoading } = useCities();
+  const navigate = useNavigate();
 
   useEffect(
     function () {
@@ -64,7 +66,7 @@ function Form() {
     [lat, lng]
   );
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
 
     if (!cityName && !date) return;
@@ -77,7 +79,8 @@ function Form() {
       notes,
       position: { lat, lng },
     };
-    createCity(newCity);
+    await createCity(newCity);
+    navigate("/app/cities");
   }
 
   if (isLoadingGeocoding) return <Spinner />;
@@ -88,7 +91,10 @@ function Form() {
   if (geocodingError) return <Message message={geocodingError} />;
 
   return (
-    <form className={styles.form} onSubmit={handleSubmit}>
+    <form
+      className={`${styles.form} ${isLoading ? styles.loading : ""}`}
+      onSubmit={handleSubmit}
+    >
       <div className={styles.row}>
         <label htmlFor="cityName">City name</label>
         <input
